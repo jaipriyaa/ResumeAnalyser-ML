@@ -22,9 +22,7 @@ This project provides a smart analysis of resumes to help job seekers optimize t
 placement/
 │
 ├── main.py                # Backend logic for resume analysis
-├── ResumeUtils.py         # Utility functions (merged into main.py if simplified)
-├── static/
-│   └── index.html         # Frontend UI for file upload and result display
+├── index.html             # Frontend UI for file upload and result display
 ├── resume.pdf             # Sample input (for testing)
 └── requirements.txt       # Python dependencies
 ```
@@ -35,8 +33,8 @@ placement/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/resume-analyzer.git
-cd resume-analyzer
+git clone https://github.com/jaipriyaa/ResumeAnalyser-ML.git
+cd ResumeAnalyser-ML
 ```
 
 ### 2. Install Dependencies
@@ -55,11 +53,11 @@ python-multipart
 
 ### 3. Start FastAPI Backend
 ```bash
-uvicorn main:app --reload
+uvicorn Main:app --reload
 ```
 
 ### 4. Open Frontend
-Just open `static/index.html` in a browser.
+Just open `index.html` in a browser.
 
 ---
 
